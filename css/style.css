@@ -2,6 +2,10 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
+
 #main-header {
 	background: #23144D;
 	font-size: 1.6em;
@@ -26,9 +30,16 @@ body {
 	color: #555;
 }
 
+#main-sidebar > ul > li:first {
+	border: 0;
+}
+
 #main-sidebar > ul > li:hover {
-	background-color: #F9F9F9;
-	
+	background-color: #F9F9F9;	
+}
+
+#main-sidebar > ul > li > a:visited {
+	color: #555;
 }
 
 .fa {
