@@ -11,7 +11,7 @@ a {
 	font-size: 1.6em;
 	font-weight: 300;
 	color: #EEE;
-	border-bottom: 3px solid #700;
+	border-bottom: 3px solid #917CCF;
 }
 
 #user-login {
@@ -28,14 +28,12 @@ a {
 	padding: 15px;
 	border-top: 1px solid #BBB;
 	color: #555;
-}
-
-#main-sidebar > ul > li:first {
-	border: 0;
+	transition: all 0.5s;
+	border-radius: 5px;
 }
 
 #main-sidebar > ul > li:hover {
-	background-color: #F9F9F9;	
+	background-color: #BFF5C7;
 }
 
 #main-sidebar > ul > li > a:visited {
