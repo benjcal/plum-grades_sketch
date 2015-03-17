@@ -80,27 +80,27 @@ input:focus {
 #courses-container {
 	display: flex;
 	flex-flow: row wrap;
-	width: 800px;
+	width: 850px;
 	height: 260px;
-
 }
 
 .course {
 	text-align: center;
 	color: #333;
 	margin: 40px;
-	border-radius: 15px;
+	border-radius: 200px;
 	font-weight: 300;
 	font-size: 2em;
 	padding: 40px 0 40px 0;
 	width: 180px;
 	line-height: 2;
-	box-shadow: 4px 4px 4px #AAA;
 	transition: all 0.2s;
+	border: 6px solid #BBB;
 }
 
 .course:hover {
 	color: white;
+	border: 6px solid #EEE;	
 }
 
 #color1 {
