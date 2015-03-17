@@ -2,34 +2,22 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-#flex-container {
-	display: flex;
-	height: 90%;
-}
-
 #main-header {
 	background: #23144D;
-	padding: 26px;
-	display: block;
-	margin-bottom: 10px;
 	font-size: 1.6em;
 	font-weight: 300;
 	color: #EEE;
+	border-bottom: 3px solid #700;
+}
+
+#user-login {
+	font-size: 12px;
+	text-align: right;
 }
 
 #main-sidebar {
-	/*background: #AFE6C3;*/
-	width: 260px;
 	font-weight: 300;
 	font-size: 1.1em;
-	margin-right: 10px;
-
-}
-
-#main-container {
-	/*background: #FFFBDD;*/
-	width: 100%;
-	overflow: scroll;
 }
 
 #main-sidebar > ul > li {
