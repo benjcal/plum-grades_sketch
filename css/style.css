@@ -28,12 +28,11 @@ a {
 	padding: 15px;
 	border-top: 1px solid #BBB;
 	color: #555;
-	transition: all 0.5s;
-	border-radius: 5px;
+	transition: all 0.2s;
 }
 
 #main-sidebar > ul > li:hover {
-	background-color: #BFF5C7;
+	background-color: #CCC;
 }
 
 #main-sidebar > ul > li > a:visited {
@@ -41,7 +40,7 @@ a {
 }
 
 .fa {
-	padding: 0 16px 0 0;
+	padding: 0 16px 0 16px;
 }
 
 td {
@@ -78,3 +77,47 @@ input:focus {
 	background: #fff;
 }
 
+#courses-container {
+	display: flex;
+	flex-flow: row wrap;
+	width: 800px;
+	height: 260px;
+
+}
+
+.course {
+	text-align: center;
+	color: #333;
+	margin: 40px;
+	border-radius: 15px;
+	font-weight: 300;
+	font-size: 2em;
+	padding: 40px 0 40px 0;
+	width: 180px;
+	line-height: 2;
+	box-shadow: 4px 4px 4px #AAA;
+	transition: all 0.2s;
+}
+
+.course:hover {
+	color: white;
+}
+
+#color1 {
+	background-color: #BA8BAF;
+}
+#color2 {
+	background-color: #DC9656;
+}
+#color3 {
+	background-color: #F7CA88;
+}
+#color4 {
+	background-color: #A1B56C;
+}
+#color5 {
+	background-color: #86C1B9;
+}
+#color6 {
+	background-color: #7CAFC2;
+}

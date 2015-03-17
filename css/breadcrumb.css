@@ -19,7 +19,7 @@
 	padding: 0 30px 0 50px;
 	background: #614C9F;
 	position: relative;
-	transition: all 0.5s;
+	transition: all 0.2s;
 }
 /*since the first link does not have a triangle before it we can reduce the left padding to make it look consistent with other links*/
 .breadcrumb a:first-child {
@@ -35,7 +35,7 @@
 }
 
 .breadcrumb a:after {
-	transition: all 0.5s;
+	transition: all 0.2s;
 }
 
 /*hover/active styles*/
