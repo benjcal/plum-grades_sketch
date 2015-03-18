@@ -24,14 +24,14 @@ a {
 	font-size: 1.1em;
 }
 
-#main-sidebar > ul > li {
+#main-sidebar > ul > a > li {
 	padding: 15px;
 	border-top: 1px solid #BBB;
 	color: #555;
 	transition: all 0.2s;
 }
 
-#main-sidebar > ul > li:hover {
+#main-sidebar > ul > a >  li:hover {
 	background-color: #CCC;
 }
 
@@ -47,8 +47,8 @@ td {
 	border-right: 1px solid #DDD;
 	padding: 14px;
 	background: #FAFAFA;
-	text-align: center;
-	font-size: 0.9em;
+	font-size: 0.8em;
+	vertical-align: middle;
 }
 
 th {
@@ -121,4 +121,15 @@ input:focus {
 }
 #color6 {
 	background-color: #7CAFC2;
+}
+
+img {
+	width: 46px;
+	height: 46px;
+	padding-right: 30px;
+	vertical-align: middle;
+}
+
+#student-name {
+	font-weight: 600;
 }
