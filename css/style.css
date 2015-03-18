@@ -66,10 +66,10 @@ select {
 input {
 	font-family: 'Open Sans', sans-serif;
 	text-align: left;
-	width: 30px;
+	width: 80px;
 	background: none;
 	border: 1px solid rgba(0,0,0,0);
-	font-size: 1em;
+	font-size: 0.9em;
 }
 
 input:focus {
