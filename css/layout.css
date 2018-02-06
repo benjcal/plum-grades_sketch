@@ -14,12 +14,13 @@
 }
 
 #nav {
-	width: 83%;
+	width: 100%;
+	text-align: center;
 }
 
 #user-login {
-	width: 17%;
-	line-height: 26px;
+	min-width: 220px;
+	line-height: 36px;
 }
 
 #main-sidebar {
@@ -30,5 +31,9 @@
 #main-container {
 	width: 100%;
 	overflow: scroll;
+}
+
+#student-name {
+	width: 240px;
 }
 
